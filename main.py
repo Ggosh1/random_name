@@ -3,7 +3,6 @@ from PyQt5 import uic
 from PyQt5.QtWidgets import QApplication, QMainWindow, QTableWidgetItem
 import sqlite3
 
-
 class MyWidget(QMainWindow):
     def __init__(self):
         super().__init__()
